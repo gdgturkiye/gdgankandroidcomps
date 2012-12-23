@@ -1,4 +1,6 @@
-package com.example.drawableimageview;
+package org.gdgankara.drawableimageview;
+
+import com.example.drawableimageview.R;
 
 import android.os.Bundle;
 import android.app.Activity;
