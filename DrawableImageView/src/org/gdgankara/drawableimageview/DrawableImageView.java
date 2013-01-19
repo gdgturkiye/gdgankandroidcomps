@@ -123,7 +123,7 @@ public class DrawableImageView extends ImageView {
 		mPaint.setARGB(a, r, g, b);
 	}
 
-	public void Undo() {
+	public void undo() {
 		mCanvas.drawRGB(0xFF, 0xFF, 0xFF );
 		mCanvas.drawBitmap(pic, 0, 0, null);
 		invalidate();

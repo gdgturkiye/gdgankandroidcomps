@@ -36,7 +36,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 
-		imgView.Undo();
+		imgView.undo();
 		
 	}
 
