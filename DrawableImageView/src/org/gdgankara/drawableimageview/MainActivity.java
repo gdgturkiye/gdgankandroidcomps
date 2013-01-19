@@ -1,17 +1,21 @@
 package org.gdgankara.drawableimageview;
 
-import com.example.drawableimageview.R;
-
-import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
 
+	DrawableImageView imgView;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		imgView = (DrawableImageView) this.findViewById(R.id.img);
+		imgView.setBitmap(BitmapFactory.decodeResource(this.getResources(),R.drawable.ic_launcher));
 	}
 
 	@Override
