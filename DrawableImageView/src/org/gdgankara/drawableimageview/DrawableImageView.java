@@ -120,6 +120,7 @@ public class DrawableImageView extends ImageView {
 	}
 
 	public void Undo() {
+		mCanvas.drawRGB(0xFF, 0xFF, 0xFF );
 		mCanvas.drawBitmap(pic, 0, 0, null);
 		invalidate();
 	}
