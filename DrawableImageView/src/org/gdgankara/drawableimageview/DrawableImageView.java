@@ -1,3 +1,7 @@
+/**
+ * This code is originally taken from http://blog.clay.shep.me/2009/08/drawable-image-view-in-android.html
+ * Some contributions are made to this source code.
+ */
 package org.gdgankara.drawableimageview;
 
 import android.content.Context;
